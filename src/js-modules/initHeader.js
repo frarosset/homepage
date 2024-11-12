@@ -1,5 +1,6 @@
 import info from "../customData/info.json";
 import portraitImg from "../customData/portrait.png";
+import initIconLinkList from "./initIconLinkList.js";
 
 export default function initHeader() {
   // Name (main heading)
@@ -18,6 +19,6 @@ export default function initHeader() {
   aboutMeDescription.textContent = info.description;
 
   // Social list
-  const socialList = document.querySelector("header .about-me__social-list");
-  socialList.textContent = "Social list: todo";
+  const socialListUl = document.querySelector("header .about-me__social-list");
+  initIconLinkList(Object.entries(info.social), socialListUl);
 }

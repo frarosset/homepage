@@ -109,6 +109,7 @@ a:hover,
 a:active,
 a:visited {
   text-decoration: none;
+  touch-action: none;
 }
 
 button {

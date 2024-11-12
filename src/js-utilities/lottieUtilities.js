@@ -23,6 +23,32 @@ export function setAnimation(
   });
 }
 
+export function setAnimationOnHover(parentContainer, data) {
+  const animation = setAnimation(parentContainer, data, false, false);
+
+  parentContainer.addEventListener("pointerenter", () => {
+    animation.setDirection(1);
+    animation.play();
+  });
+
+  parentContainer.addEventListener("pointerleave", () => {
+    animation.setDirection(-1);
+    animation.play();
+  });
+}
+
+export function setAnimationOnHoverLoop(parentContainer, data) {
+  const animation = setAnimation(parentContainer, data, true, false);
+
+  parentContainer.addEventListener("pointerenter", () => {
+    animation.play();
+  });
+
+  parentContainer.addEventListener("pointerleave", () => {
+    animation.goToAndStop(animation.totalFrames - 1, true);
+  });
+}
+
 let isFrozen = false;
 export function freezeAllAnimations(unfreeze = false) {
   if (unfreeze) {
