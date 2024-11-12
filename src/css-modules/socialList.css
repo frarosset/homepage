@@ -1,0 +1,4 @@
+.about-me__social-list {
+  --icon-link-list-gap: var(--social-icons-gap);
+  --icon-link-size: var(--social-icons-size);
+}

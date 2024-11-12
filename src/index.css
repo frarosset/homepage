@@ -20,10 +20,13 @@
   --txt-fontsize: 18px;
   --txt-lineheight: 1.2;
 
+  --social-icons-size: 1.8rem;
+
   /* Maximum width (including dashboard margin) */
   --max-width: min(1440px, 100%);
 
   /*Margins, gaps and paddings (+widths)*/
+  --social-icons-gap: 0.5rem;
 
   /* Images / icons size */
 

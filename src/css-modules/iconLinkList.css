@@ -1,0 +1,10 @@
+.icon-link-list {
+  display: flex;
+  gap: var(--icon-link-list-gap);
+  width: min-content;
+}
+
+.icon-link-list__item {
+  height: var(--icon-link-size);
+  width: var(--icon-link-size);
+}

@@ -1,4 +1,5 @@
 import initIconLink from "./initIconLink.js";
+import "../css-modules/iconLinkList.css";
 
 export default function initIconLinkList(
   iconLinkDataArray,

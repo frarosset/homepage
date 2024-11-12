@@ -1,5 +1,6 @@
 import { setAnimationOnHoverLoop } from "../js-utilities/lottieUtilities.js";
 import { lottieIcons } from "./importedIcons.js";
+import "../css-modules/iconLink.css";
 
 export default function initIconLink(iconName, link) {
   const iconLink = document.createElement("a");
