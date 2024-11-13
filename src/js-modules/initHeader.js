@@ -2,6 +2,7 @@ import info from "../customData/info.json";
 import portraitImg from "../customData/portrait.png";
 import initIconLinkList from "./initIconLinkList.js";
 import "../css-modules/socialList.css";
+import "../css-modules/header.css";
 
 export default function initHeader() {
   // Name (main heading)

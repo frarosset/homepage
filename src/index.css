@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Economica&display=swap");
 
 :root,
 ::backdrop {
@@ -14,12 +14,15 @@
   --col-txt-alt: var(--col-white);
 
   /* Font family */
-  --main-font: "Nunito", sans-serif;
+  --main-font: "Economica", sans-serif;
+  --h1-font: "Economica", sans-serif;
+  --h2-font: "Amatic SC", monospace;
 
   /* Font sizes */
-  --txt-fontsize: 18px;
+  --txt-fontsize: max(18px, 3vmin);
   --txt-lineheight: 1.2;
 
+  --h1-fontsize: 4rem;
   --social-icons-size: 1.8rem;
 
   /* Maximum width (including dashboard margin) */
@@ -28,12 +31,16 @@
   /*Margins, gaps and paddings (+widths)*/
   --social-icons-gap: 0.5rem;
 
+  --page-padding-mobile: 1rem;
+  --page-delta-padding-mobile: 1rem;
+  --h1-padding-mobile: 0 var(--page-delta-padding-mobile)
+    var(--page-delta-padding-mobile);
+
   /* Images / icons size */
 
   /* Shadows */
-  /* --outset-shadow: 2px 2px 8px var(--col-accent-medium);
-    --outset-shadow-btn-active: 2px 2px 5px var(--col-accent-medium);
-    --inset-shadow: 2px 2px 2px var(--col-accent-light) inset; */
+  --txt-shadow: 0 3px 6px var(--col-black);
+  --box-shadow: 0 3px 10px var(--col-black);
 
   /* Animations on hover / active / ...*/
   /* --transition-time: 0.8s; */
