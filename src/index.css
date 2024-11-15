@@ -42,6 +42,13 @@
   --about-me-padding-mobile: 1rem 0;
   --about-me-description-padding-mobile: 1rem 0;
 
+  --page-padding-tablet: 1rem;
+  --page-delta-padding-tablet: 1rem;
+  --h1-padding-top-tablet: 5vh;
+  --h1-padding-bottom-tablet: 3vh;
+  --h1-padding-tablet: var(--h1-padding-top-tablet) 0
+    var(--h1-padding-bottom-tablet);
+
   /* Images / icons size */
 
   /* Shadows */
