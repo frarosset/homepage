@@ -1,0 +1,22 @@
+.about-me {
+  --about-me-padding: var(--about-me-padding-mobile);
+  --about-me-description-padding: var(--about-me-description-padding-mobile);
+
+  padding: var(--about-me-padding);
+}
+
+.about-me__title {
+  font-family: var(--h2-font);
+  font-size: var(--h2-fontsize);
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-me__description {
+  padding: var(--about-me-description-padding);
+  color: var(--col-txt-p);
+}
+
+.about-me__social-list {
+  margin: 0 auto;
+}

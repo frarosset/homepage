@@ -3,6 +3,7 @@ import portraitImg from "../customData/portrait.png";
 import initIconLinkList from "./initIconLinkList.js";
 import "../css-modules/socialList.css";
 import "../css-modules/header.css";
+import "../css-modules/aboutMe.css";
 
 export default function initHeader() {
   // Name (main heading)

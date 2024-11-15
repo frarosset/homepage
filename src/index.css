@@ -5,6 +5,7 @@
   /* Colors (palette)*/
   --col-black: rgb(20, 20, 20);
   --col-white: rgb(255, 255, 255);
+  --col-grey: rgb(150, 150, 150);
 
   /* Colors (background)*/
   --bg-col: var(--col-white);
@@ -12,6 +13,7 @@
   /* Colors (text/icons)*/
   --col-txt: var(--col-black);
   --col-txt-alt: var(--col-white);
+  --col-txt-p: var(--col-grey);
 
   /* Font family */
   --main-font: "Economica", sans-serif;
@@ -23,6 +25,7 @@
   --txt-lineheight: 1.2;
 
   --h1-fontsize: 4rem;
+  --h2-fontsize: 2rem;
   --social-icons-size: 1.8rem;
 
   /* Maximum width (including dashboard margin) */
@@ -35,6 +38,9 @@
   --page-delta-padding-mobile: 1rem;
   --h1-padding-mobile: 0 var(--page-delta-padding-mobile)
     var(--page-delta-padding-mobile);
+
+  --about-me-padding-mobile: 1rem 0;
+  --about-me-description-padding-mobile: 1rem 0;
 
   /* Images / icons size */
 
