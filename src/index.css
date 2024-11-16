@@ -49,7 +49,20 @@
   --h1-padding-tablet: var(--h1-padding-top-tablet) 0
     var(--h1-padding-bottom-tablet);
 
-  /* Images / icons size */
+  --about-me-padding-top-tablet: 3rem;
+  --about-me-padding-left-right-tablet: 1rem;
+  --about-me-padding-tablet: var(--about-me-padding-top-tablet)
+    var(--about-me-padding-left-right-tablet) 3rem;
+
+  --about-me-description-padding-top-tablet: 1rem;
+  --about-me-description-padding-tablet: var(
+      --about-me-description-padding-top-tablet
+    )
+    0 1rem;
+
+  /* Radius / borders */
+  --box-border: max(2px, 0.3vmin) solid var(--col-black);
+  --box-radius: max(6px, 0.9vmin);
 
   /* Shadows */
   --txt-shadow: 0 3px 6px var(--col-black);

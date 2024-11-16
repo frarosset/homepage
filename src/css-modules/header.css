@@ -64,7 +64,11 @@ header .about-me {
 
     --portrait-inner-width: calc(50% - 2 * var(--page-delta-padding));
 
-    --portrait-float-space-height: 50vmin; /*todo*/
+    --portrait-float-space-height: calc(
+      var(--txt-lineheight) * (var(--h2-fontsize) + 4 * var(--txt-fontsize)) +
+        var(--about-me-description-padding-top-tablet) +
+        var(--about-me-padding-top-tablet)
+    );
 
     grid-template-columns:
       var(--page-delta-padding) var(--portrait-inner-width)

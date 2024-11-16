@@ -20,3 +20,29 @@
 .about-me__social-list {
   margin: 0 auto;
 }
+
+/* tablet or larger */
+
+@media only screen and (min-width: 768px) {
+  .about-me {
+    --about-me-padding: var(--about-me-padding-tablet);
+    --about-me-description-padding: var(--about-me-description-padding-tablet);
+
+    --float-space-width: calc(50% + var(--page-delta-padding-tablet));
+    --float-space-height: calc(
+      var(--txt-lineheight) * (var(--h2-fontsize) + 4 * var(--txt-fontsize)) +
+        var(--about-me-description-padding-top-tablet) +
+        var(--about-me-padding-left-right-tablet)
+    );
+
+    box-shadow: var(--box-shadow);
+    border: var(--box-border);
+    border-radius: var(--box-radius);
+  }
+
+  .about-me__float-space {
+    float: left;
+    height: var(--float-space-height);
+    width: var(--float-space-width);
+  }
+}
