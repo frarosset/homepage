@@ -96,3 +96,36 @@ header .about-me {
     grid-column: 2 / span 3;
   }
 }
+
+/* desktop or larger */
+@media only screen and (min-width: 961px) {
+  header {
+    --page-padding: var(--page-padding-desktop);
+    --page-delta-padding: var(--page-delta-padding-desktop);
+    --h1-padding: var(--h1-padding-desktop);
+
+    grid-template-columns:
+      0.8fr var(--page-delta-padding-desktop)
+      1fr;
+
+    grid-template-rows: var(--page-delta-padding-desktop) minmax(0, 1fr) var(
+        --page-delta-padding-desktop
+      );
+  }
+
+  header h1 {
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 2;
+    justify-self: end;
+  }
+
+  header img {
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 2;
+  }
+
+  header .about-me {
+    grid-row: 2;
+    grid-column: 2 / span 2;
+  }
+}

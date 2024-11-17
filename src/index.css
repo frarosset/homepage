@@ -60,6 +60,11 @@
     )
     0 1rem;
 
+  --page-padding-desktop: 2rem;
+  --page-delta-padding-desktop: 2rem;
+  --h1-padding-desktop: 0 var(--page-delta-padding-desktop)
+    var(--page-delta-padding-desktop);
+
   /* Radius / borders */
   --box-border: max(2px, 0.3vmin) solid var(--col-black);
   --box-radius: max(6px, 0.9vmin);
