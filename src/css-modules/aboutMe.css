@@ -46,3 +46,30 @@
     width: var(--float-space-width);
   }
 }
+
+/* desktop or larger */
+@media only screen and (min-width: 961px) {
+  .about-me {
+    --about-me-padding: var(--about-me-padding-desktop);
+    --about-me-description-padding: var(--about-me-description-padding-desktop);
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me__title {
+    text-align: left;
+  }
+
+  .about-me__social-list {
+    flex: 1;
+    align-items: center;
+    margin: 0 0 0 auto;
+  }
+
+  .about-me__float-space {
+    float: none;
+    height: 0;
+    width: 0;
+  }
+}

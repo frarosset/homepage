@@ -65,6 +65,15 @@
   --h1-padding-desktop: 0 var(--page-delta-padding-desktop)
     var(--page-delta-padding-desktop);
 
+  --about-me-padding-left-right-desktop: 1rem;
+  --about-me-padding-desktop: 3rem var(--about-me-padding-left-right-desktop)
+    3rem
+    calc(
+      var(--about-me-padding-left-right-desktop) +
+        var(--page-delta-padding-desktop)
+    );
+  --about-me-description-padding-desktop: 1rem 0 1rem;
+
   /* Radius / borders */
   --box-border: max(2px, 0.3vmin) solid var(--col-black);
   --box-radius: max(6px, 0.9vmin);
