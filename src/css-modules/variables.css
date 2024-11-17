@@ -39,6 +39,7 @@
     var(--page-delta-padding-mobile);
 
   --about-me-padding-mobile: 1rem 0;
+  --about-me-padding-mobile-landscape: 0 1rem 0 2rem;
   --about-me-description-padding-mobile: 1rem 0;
 
   --page-padding-tablet: 1rem;
