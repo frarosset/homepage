@@ -1,6 +1,8 @@
 import info from "../customData/info.json";
 import portraitImg from "../customData/portrait.png";
 import initIconLinkList from "./initIconLinkList.js";
+import "../css-modules/socialList.css";
+import "../css-modules/footer.css";
 
 export default function initFooter() {
   // Address

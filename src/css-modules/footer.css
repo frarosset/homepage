@@ -1,0 +1,32 @@
+/* mobile first styles */
+
+footer {
+  --page-padding: var(--page-padding-mobile);
+  --page-delta-padding: var(--page-delta-padding-mobile);
+
+  display: grid;
+  grid-template-areas:
+    "contactMe"
+    "portrait";
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+footer .contact-me {
+  grid-area: contactMe;
+  padding: var(--page-padding);
+}
+
+footer .portrait {
+  grid-area: portrait;
+
+  width: 100%;
+
+  /* make the height 0 to not affect the layout (row height), 
+  and force min-height to100% to take the row height
+  see: https://stackoverflow.com/questions/63726048/prevent-image-from-being-used-to-calculate-grid-row-height */
+  height: 0;
+  min-height: 100%;
+
+  object-fit: cover;
+}
