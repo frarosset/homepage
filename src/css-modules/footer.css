@@ -30,3 +30,12 @@ footer .portrait {
 
   object-fit: cover;
 }
+
+/* mobile, horizontal */
+@media only screen and (max-height: 550px) and (orientation: landscape) {
+  footer {
+    grid-template-areas: "contactMe portrait";
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(0, 1fr);
+  }
+}
