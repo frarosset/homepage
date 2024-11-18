@@ -57,3 +57,12 @@ footer .portrait {
     padding: 0;
   }
 }
+
+/* desktop or larger */
+@media only screen and (min-width: 961px) and (orientation: landscape) and (min-height: 551px) {
+  footer {
+    --page-padding: var(--page-padding-desktop);
+
+    grid-template-columns: 0.4fr 0.6fr;
+  }
+}
