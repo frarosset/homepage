@@ -1,4 +1,5 @@
 import initMyWorkList from "./initMyWorkList.js";
+import "../css-modules/main.css";
 
 export default function initMain() {
   // My work list

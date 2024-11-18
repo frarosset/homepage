@@ -1,0 +1,21 @@
+/* mobile first styles */
+
+main {
+  --page-padding: var(--page-padding-mobile);
+
+  padding: var(--page-padding);
+}
+
+/* tablet or larger */
+@media only screen and (min-width: 767px) and (min-height: 551px) {
+  main {
+    --page-padding: var(--page-padding-tablet);
+  }
+}
+
+/* desktop or larger */
+@media only screen and (min-width: 961px) and (orientation: landscape) and (min-height: 551px) {
+  main {
+    --page-padding: var(--page-padding-desktop);
+  }
+}
