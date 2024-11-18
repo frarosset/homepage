@@ -14,7 +14,6 @@ footer {
 
 footer .contact-me {
   grid-area: contactMe;
-  padding: var(--page-padding);
 }
 
 footer .portrait {
@@ -51,10 +50,6 @@ footer .portrait {
 
     height: min-content;
     padding: var(--page-padding);
-  }
-
-  footer .contact-me {
-    padding: 0;
   }
 }
 

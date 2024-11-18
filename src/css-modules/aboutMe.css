@@ -2,6 +2,9 @@
   --about-me-padding: var(--about-me-padding-mobile);
   --about-me-description-padding: var(--about-me-description-padding-mobile);
 
+  --icon-link-list-gap: var(--social-icons-gap);
+  --icon-link-size: var(--social-icons-size);
+
   padding: var(--about-me-padding);
 }
 

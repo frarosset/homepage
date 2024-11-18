@@ -60,6 +60,11 @@
   --my-work-ncol-mobile: 1;
   --my-work-ncol-mobile-landscape: 2;
 
+  --contact-me-padding-mobile: 2rem var(--page-padding-mobile);
+  --contact-me-padding-mobile-landscape: 2rem var(--page-padding-mobile);
+
+  --contact-me-gap-mobile: 1.5rem;
+
   /* > tablet styles*/
   --page-padding-tablet: 1rem;
   --page-delta-padding-tablet: 1rem;
@@ -82,6 +87,9 @@
   --my-work-padding-tablet: 0 var(--page-delta-padding-mobile);
   --my-work-ncol-tablet: 2;
 
+  --contact-me-padding-tablet: 2rem 1rem 2rem 0;
+  --contact-me-gap-tablet: 1.5rem;
+
   /* > desktop styles*/
 
   --page-padding-desktop: 2rem;
@@ -100,6 +108,9 @@
 
   --my-work-padding-desktop: 0;
   --my-work-ncol-desktop: 3;
+
+  --contact-me-padding-desktop: 2rem 1rem 2rem 0;
+  --contact-me-gap-desktop: 1.5rem;
 
   /* Radius / borders */
   --box-border: max(2px, 0.3vmin) solid var(--col-black);
