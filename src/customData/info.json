@@ -6,6 +6,11 @@
     "linkedin": "#",
     "twitter": "#"
   },
+  "contact": {
+    "address": "123 Random Road, Random Country",
+    "phone": "000-000-0000",
+    "email": "email@example.com"
+  },
   "projects": [
     {
       "name": "Battleship",
