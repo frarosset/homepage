@@ -32,6 +32,10 @@
 
   /*Margins, gaps and paddings (+widths)*/
   --social-icons-gap: 0.5rem;
+  --my-work-title-gap: 1rem;
+  --my-work-list-gap: 1.5rem;
+
+  /* > mobile styles*/
 
   --page-padding-mobile: 1rem;
   --page-delta-padding-mobile: 1rem;
@@ -42,6 +46,13 @@
   --about-me-padding-mobile-landscape: 0 1rem 0 2rem;
   --about-me-description-padding-mobile: 1rem 0;
 
+  --my-work-padding-mobile: 0;
+  --my-work-padding-mobile-landscape: 0;
+
+  --my-work-ncol-mobile: 1;
+  --my-work-ncol-mobile-landscape: 2;
+
+  /* > tablet styles*/
   --page-padding-tablet: 1rem;
   --page-delta-padding-tablet: 1rem;
   --h1-padding-top-tablet: 5vh;
@@ -60,6 +71,11 @@
     )
     0 1rem;
 
+  --my-work-padding-tablet: 0 var(--page-delta-padding-mobile);
+  --my-work-ncol-tablet: 2;
+
+  /* > desktop styles*/
+
   --page-padding-desktop: 2rem;
   --page-delta-padding-desktop: 2rem;
   --h1-padding-desktop: 0 var(--page-delta-padding-desktop)
@@ -73,6 +89,9 @@
         var(--page-delta-padding-desktop)
     );
   --about-me-description-padding-desktop: 1rem 0 1rem;
+
+  --my-work-padding-desktop: 0;
+  --my-work-ncol-desktop: 3;
 
   /* Radius / borders */
   --box-border: max(2px, 0.3vmin) solid var(--col-black);
