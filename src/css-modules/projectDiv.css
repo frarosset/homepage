@@ -51,3 +51,13 @@
 .project__links {
   grid-area: links;
 }
+
+/* Hover styles */
+
+/* when hover is supported */
+@media not all and (hover: none) {
+  .project:hover {
+    transform: scale(var(--box-scale-hover));
+    box-shadow: var(--box-shadow-hover);
+  }
+}
