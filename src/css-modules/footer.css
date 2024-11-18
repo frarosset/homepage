@@ -39,3 +39,21 @@ footer .portrait {
     grid-auto-rows: minmax(0, 1fr);
   }
 }
+
+/* tablet or larger */
+@media only screen and (min-width: 767px) and (min-height: 551px) {
+  footer {
+    --page-padding: var(--page-padding-tablet);
+
+    grid-template-areas: "contactMe portrait";
+    grid-template-columns: 0.6fr 0.4fr;
+    grid-auto-rows: minmax(0, 1fr);
+
+    height: min-content;
+    padding: var(--page-padding);
+  }
+
+  footer .contact-me {
+    padding: 0;
+  }
+}
