@@ -19,6 +19,12 @@
   font-weight: bold;
 }
 
+.contact-me__contact-div {
+  display: flex;
+  gap: var(--icon-link-list-gap);
+  align-items: center;
+}
+
 .contact-me__social-list {
   margin: 0 auto;
 }
@@ -57,4 +63,28 @@
     --contact-me-padding: var(--contact-me-padding-desktop);
     --contact-me-gap: var(--contact-me-gap-desktop);
   }
+}
+
+/*** ICONS ***/
+.contact-me__contact-icon {
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: var(--col-txt);
+  height: var(--txt-fontsize);
+  aspect-ratio: 1;
+}
+
+.contact_me__address-icon {
+  -webkit-mask-image: url("../assets/feather/map-pin.svg");
+  mask-image: url("../assets/feather/map-pin.svg");
+}
+
+.contact_me__phone-icon {
+  -webkit-mask-image: url("../assets/feather/phone.svg");
+  mask-image: url("../assets/feather/phone.svg");
+}
+
+.contact_me__email-icon {
+  -webkit-mask-image: url("../assets/feather/mail.svg");
+  mask-image: url("../assets/feather/mail.svg");
 }
