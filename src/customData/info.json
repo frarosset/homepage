@@ -5,5 +5,84 @@
     "github": "https://github.com/frarosset",
     "linkedin": "#",
     "twitter": "#"
-  }
+  },
+  "projects": [
+    {
+      "name": "Battleship",
+      "description": "A battleship game created with HTML, CSS, and Javascript, built using Webpack and applying Test Driven Development (TDD) with Jest.",
+      "repoLink": "https://github.com/frarosset/battleship",
+      "liveLink": "http://frarosset.github.io/battleship",
+      "previewLink": "https://github.com/frarosset/battleship/raw/main/src/screenshot/frarosset.github.io_battleship.png"
+    },
+    {
+      "name": "Weather App",
+      "description": "A weather webapp created with HTML, CSS, and Javascript, built using Webpack, and powered by Visual Crossing API.",
+      "repoLink": "https://github.com/frarosset/weather-app",
+      "liveLink": "http://frarosset.github.io/weather-app",
+      "previewLink": "https://github.com/frarosset/weather-app/raw/main/src/screenshot/frarosset.github.io_weather-app.png"
+    },
+    {
+      "name": "CuteCats",
+      "description": "An assignment to practice working with APIs, which consists in creating a simple webpage showing cat GIFs (powered by Giphy API), created with HTML, CSS, and Javascript.",
+      "repoLink": "https://github.com/frarosset/cute-cats",
+      "liveLink": "http://frarosset.github.io/cute-cats",
+      "previewLink": "https://github.com/frarosset/cute-cats/raw/main/screenshot/frarosset.github.io_cute-cats.png"
+    },
+    {
+      "name": "Drop-down menu and image carousel",
+      "description": "An assignment to practice creating dynamic user interfaces, which consists in coding a drop-down menu module and an image carousel module to be shown in a website, created with HTML, CSS, and Javascript.",
+      "repoLink": "https://github.com/frarosset/dynamic-user-interface",
+      "liveLink": "http://frarosset.github.io/dynamic-user-interface",
+      "previewLink": "https://github.com/frarosset/dynamic-user-interface/raw/main/screenshot/frarosset.github.io_dynamic-user-interface.png"
+    },
+    {
+      "name": "Todo List",
+      "description": "A todo list webapp created with HTML, CSS, and Javascript, built using Webpack.",
+      "repoLink": "https://github.com/frarosset/todo-list",
+      "liveLink": "http://frarosset.github.io/todo-list",
+      "previewLink": "https://github.com/frarosset/todo-list/raw/main/src/screenshot/frarosset.github.io_todo-list.png"
+    },
+    {
+      "name": "Restaurant page",
+      "description": "A restaurant webpage created with HTML, CSS, and Javascript, built using Webpack.",
+      "repoLink": "https://github.com/frarosset/restaurant-page",
+      "liveLink": "http://frarosset.github.io/restaurant-page",
+      "previewLink": "https://github.com/frarosset/restaurant-page/raw/main/src/screenshot/frarosset.github.io_restaurant-page.png"
+    },
+    {
+      "name": "Tic Tac Toe",
+      "description": "A tic tac toe game created with HTML, CSS, and Javascript.",
+      "repoLink": "https://github.com/frarosset/tic-tac-toe",
+      "liveLink": "http://frarosset.github.io/tic-tac-toe",
+      "previewLink": "https://github.com/frarosset/tic-tac-toe/raw/main/screenshot/frarosset.github.io_tic-tac-toe.png"
+    },
+    {
+      "name": "Library",
+      "description": "A library webapp created with HTML, CSS, and Javascript.",
+      "repoLink": "https://github.com/frarosset/library",
+      "liveLink": "http://frarosset.github.io/library",
+      "previewLink": "https://github.com/frarosset/library/raw/main/screenshot/frarosset.github.io_library.png"
+    },
+    {
+      "name": "Admin Dashboard",
+      "description": "An admin dashboard webpage created with HTML, CSS, and Javascript.",
+      "repoLink": "https://github.com/frarosset/admin-dashboard",
+      "liveLink": "http://frarosset.github.io/admin-dashboard",
+      "previewLink": "https://github.com/frarosset/admin-dashboard/raw/main/screenshot/frarosset.github.io_admin-dashboard.png"
+    },
+    {
+      "name": "Sign-up form",
+      "description": "A sign-up form created with HTML, CSS, and Javascript.",
+      "repoLink": "https://github.com/frarosset/sign-up-form",
+      "liveLink": "http://frarosset.github.io/sign-up-form",
+      "previewLink": "https://github.com/frarosset/sign-up-form/raw/main/screenshot/frarosset.github.io_sign-up-form.png"
+    },
+    {
+      "name": "Calculator",
+      "description": "A calculator web app created with HTML, CSS, and Javascript.",
+      "repoLink": "https://github.com/frarosset/calculator",
+      "liveLink": "http://frarosset.github.io/calculator",
+      "previewLink": "https://github.com/frarosset/calculator/raw/main/screenshot/frarosset.github.io_calculator.png"
+    }
+  ]
 }
