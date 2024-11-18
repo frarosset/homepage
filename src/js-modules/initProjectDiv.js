@@ -1,4 +1,5 @@
 import initIconLinkList from "./initIconLinkList.js";
+import "../css-modules/projectDiv.css";
 
 export default function initProjectDiv(data) {
   const div = document.createElement("div");

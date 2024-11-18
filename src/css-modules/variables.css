@@ -25,7 +25,11 @@
 
   --h1-fontsize: 4rem;
   --h2-fontsize: 2rem;
+  --h3-fontsize: 1.1rem;
+  --project-description-fontsize: 0.8rem;
+
   --social-icons-size: 1.8rem;
+  --project-icons-size: calc(var(--h3-fontsize) * var(--txt-lineheight));
 
   /* Maximum width (including dashboard margin) */
   --max-width: min(1440px, 100%);
@@ -34,6 +38,10 @@
   --social-icons-gap: 0.5rem;
   --my-work-title-gap: 1rem;
   --my-work-list-gap: 1.5rem;
+
+  --project-info-padding: 1rem 0.5rem 0.5rem;
+  --project-info-gap: 0.5rem;
+  --project-icons-gap: 0;
 
   /* > mobile styles*/
 
@@ -99,7 +107,7 @@
 
   /* Shadows */
   --txt-shadow: 0 3px 6px var(--col-black);
-  --box-shadow: 0 3px 10px var(--col-black);
+  --box-shadow: 0 3px 9px var(--col-grey);
 
   /* Animations on hover / active / ...*/
   /* --transition-time: 0.8s; */
