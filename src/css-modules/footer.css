@@ -1,6 +1,6 @@
 /* mobile first styles */
 
-footer {
+footer.main-footer {
   --page-padding: var(--page-padding-mobile);
   --page-delta-padding: var(--page-delta-padding-mobile);
 
@@ -14,11 +14,11 @@ footer {
   background: var(--footer-linear-gradient-mobile);
 }
 
-footer .contact-me {
+footer.main-footer .contact-me {
   grid-area: contactMe;
 }
 
-footer .portrait {
+footer.main-footer .portrait {
   grid-area: portrait;
 
   width: 100%;
@@ -34,7 +34,7 @@ footer .portrait {
 
 /* mobile, horizontal */
 @media only screen and (max-height: 550px) and (orientation: landscape) {
-  footer {
+  footer.main-footer {
     grid-template-areas: "contactMe portrait";
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: minmax(0, 1fr);
@@ -45,7 +45,7 @@ footer .portrait {
 
 /* tablet or larger */
 @media only screen and (min-width: 767px) and (min-height: 551px) {
-  footer {
+  footer.main-footer {
     --page-padding: var(--page-padding-tablet);
 
     grid-template-areas: "contactMe portrait";
@@ -61,7 +61,7 @@ footer .portrait {
 
 /* desktop or larger */
 @media only screen and (min-width: 961px) and (orientation: landscape) and (min-height: 551px) {
-  footer {
+  footer.main-footer {
     --page-padding: var(--page-padding-desktop);
 
     grid-template-columns: 0.4fr 0.6fr;
