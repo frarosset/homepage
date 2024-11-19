@@ -58,7 +58,7 @@
   --txt-fontsize: max(18px, 3vmin);
   --txt-lineheight: 1.2;
 
-  --h1-fontsize: 4rem;
+  --h1-fontsize: 3.5rem;
   --h2-fontsize: 2rem;
   --h3-fontsize: 1.1rem;
   --project-description-fontsize: 0.8rem;
@@ -129,8 +129,7 @@
 
   --page-padding-desktop: 2rem;
   --page-delta-padding-desktop: 2rem;
-  --h1-padding-desktop: 0 var(--page-delta-padding-desktop)
-    var(--page-delta-padding-desktop);
+  --h1-padding-desktop: 0 var(--page-delta-padding-desktop) 1rem;
 
   --about-me-padding-left-right-desktop: 1rem;
   --about-me-padding-desktop: 3rem var(--about-me-padding-left-right-desktop)
@@ -152,7 +151,7 @@
   --box-radius: max(6px, 0.9vmin);
 
   /* Shadows */
-  --txt-shadow: 0 3px 6px var(--col-black);
+  --txt-shadow: 0 3px 6px var(--col-black), 2px 0px 2px var(--col-black);
   --box-shadow: 0 3px 9px var(--col-grey);
   --box-shadow-darker: 0 3px 9px var(--col-black);
   --box-shadow-hover: var(--box-shadow-darker);

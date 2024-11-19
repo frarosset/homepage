@@ -46,6 +46,8 @@ header h1 {
   padding: var(--h1-padding);
   font-weight: bold;
   line-height: 0.9;
+  text-align: center;
+  margin: 0 auto;
 }
 
 header img {
@@ -127,6 +129,7 @@ header .about-me {
     grid-row: 2;
     grid-column: 1 / span 5;
     justify-self: end;
+    margin: 0;
   }
 
   header img {
@@ -166,6 +169,7 @@ header .about-me {
     grid-row: 1 / span 3;
     grid-column: 1 / span 2;
     justify-self: end;
+    margin: 0 auto;
   }
 
   header img {
