@@ -11,6 +11,8 @@
   box-shadow: var(--box-shadow);
   border: var(--box-border);
   border-radius: 0 0 var(--box-radius) var(--box-radius);
+
+  transition: 0.4s;
 }
 
 .project__preview {
@@ -55,6 +57,12 @@
 /* Hover styles */
 
 /* when hover is supported */
+
+.project:active {
+  transform: scale(var(--box-scale-hover));
+  box-shadow: var(--box-shadow-hover);
+}
+
 @media not all and (hover: none) {
   .project:hover {
     transform: scale(var(--box-scale-hover));
