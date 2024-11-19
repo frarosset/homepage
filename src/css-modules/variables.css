@@ -6,6 +6,28 @@
   --col-white: rgb(255, 255, 255);
   --col-grey: rgb(150, 150, 150);
 
+  --dark-purple: #191021;
+  --indigo-dye: #294a6d;
+  --cerulean: #37779a;
+  --moonstone: #6aa0aa;
+  --magenta-dye: #c02d74;
+
+  --footer-linear-gradient: linear-gradient(
+    210deg,
+    var(--dark-purple),
+    var(--indigo-dye),
+    var(--cerulean),
+    var(--moonstone)
+  );
+
+  --footer-linear-gradient-mobile: linear-gradient(
+    210deg,
+    var(--indigo-dye),
+    var(--cerulean),
+    var(--moonstone),
+    var(--moonstone)
+  );
+
   /* Colors (background)*/
   --bg-col: var(--col-white);
 

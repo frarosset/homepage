@@ -10,6 +10,8 @@
 
   padding: var(--contact-me-padding);
   gap: var(--contact-me-gap);
+
+  color: var(--col-txt-alt);
 }
 
 .contact-me__title {
@@ -69,7 +71,7 @@
 .contact-me__contact-icon {
   -webkit-mask-size: cover;
   mask-size: cover;
-  background-color: var(--col-txt);
+  background-color: var(--col-txt-alt);
   height: var(--txt-fontsize);
   aspect-ratio: 1;
 }

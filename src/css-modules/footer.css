@@ -10,6 +10,8 @@ footer {
     "portrait";
   grid-template-columns: 1fr;
   grid-auto-rows: minmax(0, 1fr) minmax(0, 1fr);
+
+  background: var(--footer-linear-gradient-mobile);
 }
 
 footer .contact-me {
@@ -36,6 +38,8 @@ footer .portrait {
     grid-template-areas: "contactMe portrait";
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: minmax(0, 1fr);
+
+    background: var(--footer-linear-gradient);
   }
 }
 
@@ -50,6 +54,8 @@ footer .portrait {
 
     height: min-content;
     padding: var(--page-padding);
+
+    background: var(--footer-linear-gradient);
   }
 }
 
