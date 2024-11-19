@@ -5,6 +5,8 @@ header {
   --page-delta-padding: var(--page-delta-padding-mobile);
   --h1-padding: var(--h1-padding-mobile);
 
+  --footer-bg-poligon: var(--footer-bg-poligon-mobile);
+
   --full-padding: calc(var(--page-padding) + var(--page-delta-padding));
 
   display: grid;
@@ -16,6 +18,18 @@ header {
   height: 100vh;
   height: 100dvh;
   padding: var(--page-padding);
+
+  position: relative;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  clip-path: var(--footer-bg-poligon);
+  background: var(--header-linear-gradient);
 }
 
 header h1 {
@@ -42,7 +56,7 @@ header img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow-darker);
 }
 
 header .about-me {
@@ -55,6 +69,7 @@ header .about-me {
 @media only screen and (max-height: 550px) and (orientation: landscape) {
   header {
     --page-delta-padding: 0;
+    --footer-bg-poligon: var(--footer-bg-poligon-mobile-landscape);
 
     grid-template-columns: 0.8fr 1fr;
     grid-template-rows: minmax(0, 1fr);
@@ -82,6 +97,8 @@ header .about-me {
     --page-padding: var(--page-padding-tablet);
     --page-delta-padding: var(--page-delta-padding-tablet);
     --h1-padding: var(--h1-padding-tablet);
+
+    --footer-bg-poligon: var(--footer-bg-poligon-tablet);
 
     --h1-height: calc(
       var(--h1-padding-top-tablet) + var(--h1-padding-bottom-tablet) +
@@ -121,6 +138,10 @@ header .about-me {
     grid-row: 3 / span 2;
     grid-column: 2 / span 3;
   }
+
+  header .about-me {
+    background-color: var(--bg-col);
+  }
 }
 
 /* desktop or larger */
@@ -129,6 +150,8 @@ header .about-me {
     --page-padding: var(--page-padding-desktop);
     --page-delta-padding: var(--page-delta-padding-desktop);
     --h1-padding: var(--h1-padding-desktop);
+
+    --footer-bg-poligon: var(--footer-bg-poligon-desktop);
 
     grid-template-columns:
       0.8fr var(--page-delta-padding-desktop)

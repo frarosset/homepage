@@ -12,6 +12,14 @@
   --moonstone: #6aa0aa;
   --magenta-dye: #c02d74;
 
+  --header-linear-gradient: linear-gradient(
+    330deg,
+    var(--dark-purple),
+    var(--indigo-dye),
+    var(--cerulean),
+    var(--magenta-dye)
+  );
+
   --footer-linear-gradient: linear-gradient(
     210deg,
     var(--dark-purple),
@@ -27,6 +35,11 @@
     var(--moonstone),
     var(--moonstone)
   );
+
+  --footer-bg-poligon-mobile: polygon(0 0, 100% 0, 100% 30%, 0 60%);
+  --footer-bg-poligon-mobile-landscape: polygon(0 0, 50% 0, 25% 100%, 0 100%);
+  --footer-bg-poligon-tablet: polygon(0 0, 100% 0, 100% 40%, 0 75%);
+  --footer-bg-poligon-desktop: polygon(0 0, 100% 0, 100% 50%, 0 100%);
 
   /* Colors (background)*/
   --bg-col: var(--col-white);
@@ -141,7 +154,8 @@
   /* Shadows */
   --txt-shadow: 0 3px 6px var(--col-black);
   --box-shadow: 0 3px 9px var(--col-grey);
-  --box-shadow-hover: 0 3px 9px var(--col-black);
+  --box-shadow-darker: 0 3px 9px var(--col-black);
+  --box-shadow-hover: var(--box-shadow-darker);
 
   --box-scale-hover: 1.06;
 
