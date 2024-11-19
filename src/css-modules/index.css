@@ -54,6 +54,11 @@ footer {
 }
 
 main {
+  margin-top: 10vh;
+  margin-bottom: 15vh;
+}
+
+main {
   flex: 1;
 }
 
