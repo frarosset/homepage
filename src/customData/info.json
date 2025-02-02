@@ -13,6 +13,20 @@
   },
   "projects": [
     {
+      "name": "CV Application",
+      "description": "A battleship game created with HTML, CSS, Javascript and React, built using Vite.",
+      "repoLink": "https://github.com/frarosset/cv-application",
+      "liveLink": "http://cv-application-hazel.vercel.app",
+      "previewLink": "https://github.com/frarosset/cv-application/raw/main/src/screenshot/cv-application-hazel.vercel.app.png"
+    },
+    {
+      "name": "Homepage",
+      "description": "A homepage created with HTML, CSS, and Javascript, built using Webpack.",
+      "repoLink": "https://github.com/frarosset/homepage",
+      "liveLink": "http://frarosset.github.io/homepage",
+      "previewLink": "https://github.com/frarosset/homepage/raw/main/src/screenshot/frarosset.github.io_homepage.png"
+    },
+    {
       "name": "Battleship",
       "description": "A battleship game created with HTML, CSS, and Javascript, built using Webpack and applying Test Driven Development (TDD) with Jest.",
       "repoLink": "https://github.com/frarosset/battleship",
