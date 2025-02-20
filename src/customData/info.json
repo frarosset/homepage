@@ -13,6 +13,13 @@
   },
   "projects": [
     {
+      "name": "Memory Card",
+      "description": "A memory card game created with HTML, CSS, Javascript and React, built using Vite.",
+      "repoLink": "https://github.com/frarosset/memory-card",
+      "liveLink": "https://memory-card-nine-cyan.vercel.app/",
+      "previewLink": "https://github.com/frarosset/memory-card/raw/main/public/screenshot/memory-card-nine-cyan.vercel.app_.png"
+    },
+    {
       "name": "CV Application",
       "description": "A battleship game created with HTML, CSS, Javascript and React, built using Vite.",
       "repoLink": "https://github.com/frarosset/cv-application",
