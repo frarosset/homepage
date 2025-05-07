@@ -12,6 +12,13 @@
     "email": "email@example.com"
   },
   "projects": [
+  {
+      "name": "Shopping Cart",
+      "description": "A shopping cart mock created with HTML, CSS, Javascript, React, React Router and Styled Components, built using Vite.",
+      "repoLink": "https://github.com/frarosset/shopping-cart",
+      "liveLink": "https://shopping-cart-two-pi-51.vercel.app/",
+      "previewLink": "https://github.com/frarosset/shopping-cart/raw/main/public/screenshot/shopping-cart-two-pi-51.vercel.app.png"
+    },
     {
       "name": "Memory Card",
       "description": "A memory card game created with HTML, CSS, Javascript and React, built using Vite.",
