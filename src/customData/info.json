@@ -12,20 +12,28 @@
     "email": "email@example.com"
   },
   "projects": [
-  {
+    {
+      "name": "Inventory Application",
+      "description": "A pizza inventory application is built using HTML, CSS, and JavaScript. A Node.js + Express server renders views with EJS and handles pizzas, ingredients, doughs and categories information storage using PostgreSQL.",
+      "repoLink": "https://github.com/frarosset/inventory-application",
+      "liveLink": "https://inventory-application-kefq.onrender.com/",
+      "previewLink": "https://raw.githubusercontent.com/frarosset/inventory-application/refs/heads/main/screenshot/inventory-application-kefq.onrender.com.png"
+    },
+    {
       "name": "Mini Message Board",
       "description": "A mini message board is built using HTML, CSS, and JavaScript. A Node.js + Express server renders views with EJS and handles message storage using PostgreSQL.",
       "repoLink": "https://github.com/frarosset/mini-message-board",
       "liveLink": "https://mini-message-board-zq1g.onrender.com/",
       "previewLink": "https://raw.githubusercontent.com/frarosset/mini-message-board/refs/heads/main/screenshot/mini-message-board-zq1g.onrender.com.png"
-    },  {
+    },
+    {
       "name": "Basic Informational Site",
       "description": "A basic informational site showing the Astronomical Picture of the Day (APOD) from NASA created with HTML, CSS, Javascript. A very simple Node.js / Express server is setup, that serves the correct page of the site.",
       "repoLink": "https://github.com/frarosset/basic-informational-site",
       "liveLink": "https://basic-informational-site-h4gd.onrender.com/",
       "previewLink": "https://raw.githubusercontent.com/frarosset/basic-informational-site/main/public/screenshot/index.png"
     },
-  {
+    {
       "name": "Shopping Cart",
       "description": "A shopping cart mock created with HTML, CSS, Javascript, React, React Router and Styled Components, built using Vite.",
       "repoLink": "https://github.com/frarosset/shopping-cart",
