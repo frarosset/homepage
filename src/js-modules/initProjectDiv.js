@@ -11,6 +11,10 @@ export default function initProjectDiv(data) {
   previewImg.src = data.previewLink;
   previewImg.alt = `Screenshot of the project ${data.name}`;
 
+  const previewImgLink = document.createElement("a");
+  previewImgLink.href = data.liveLink;
+  previewImgLink.append(previewImg);
+
   // Project info div
   const infoDiv = document.createElement("div");
   infoDiv.classList.add("project__info");
@@ -35,7 +39,7 @@ export default function initProjectDiv(data) {
   initIconLinkList(linksData, links);
 
   infoDiv.append(title, description, links);
-  div.append(previewImg, infoDiv);
+  div.append(previewImgLink, infoDiv);
 
   return div;
 }
