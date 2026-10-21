@@ -12,6 +12,13 @@
     "email": "email@example.com"
   },
   "projects": [
+	    {
+      "name": "Members Only",
+      "description": "an exclusive clubhouse-style message board web application is built using HTML, CSS, and JavaScript. A Node.js + Express server renders views with EJS, while data are stored in a PostgreSQL database. Authentication is handler through Passport.js, using the Local Strategy.",
+      "repoLink": "https://github.com/frarosset/members-only",
+      "liveLink": "https://members-only-ltzm.onrender.com/",
+      "previewLink": "https://raw.githubusercontent.com/frarosset/members-only/refs/heads/main/screenshot/members-only-ltzm.onrender.com.png"
+    },
     {
       "name": "Inventory Application",
       "description": "A pizza inventory application is built using HTML, CSS, and JavaScript. A Node.js + Express server renders views with EJS and handles pizzas, ingredients, doughs and categories information storage using PostgreSQL.",
